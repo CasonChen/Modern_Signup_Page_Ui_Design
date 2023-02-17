@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+/* import a font i like from Google */
 
 * {
     box-sizing: border-box;
+    /* to sets how total width and height of the element to calculated */
+    /* border-box: for example, if i set a 100px width, so it will tells the browser to account for any border, padding or margin. It's total 100px */
+    /* content-box: easy to understand, i set a 100px width, so the element's content box will be 100px, doesn't include the border, padding or margin. */
 }
 
 html {
@@ -11,6 +15,7 @@ html {
 body {
     height: 100%;
     display: grid;
+    /* display is to sets whether the element is treated as block-element or inline-element */
     place-items: center;
     margin: 0;
     padding: 0 32px;
